@@ -16,7 +16,7 @@
 ```termux-setup-storage```
 
 # How to use?
-### <operation> <script> <file_name.bin>
+### <operation_script> <script> <file_name.bin>
 
 ### Example
 python python_dumper payload.bin
