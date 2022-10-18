@@ -9,7 +9,7 @@ try:
 except ImportError:
     from backports import lzma
 
-import metadata_pb2 as um
+import update_metadata_pb2 as um
 
 flatten = lambda l: [item for sublist in l for item in sublist]
 
@@ -90,3 +90,7 @@ for part in dam.partitions:
     # assert verify_contiguous(extents), 'operations do not span full image'
 
     dump_part(part)
+    
+print('.................')
+print('   extract done  ')
+print('.................')
