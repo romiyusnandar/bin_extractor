@@ -9,7 +9,7 @@ try:
 except ImportError:
     from backports import lzma
 
-import update_metadata_pb2 as um
+import metadata_pb2 as um
 
 flatten = lambda l: [item for sublist in l for item in sublist]
 
